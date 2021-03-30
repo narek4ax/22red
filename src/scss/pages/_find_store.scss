@@ -1,0 +1,35 @@
+// ------------------------------------------------------
+// Page specific styles that are not meant to be global
+// should be placed here.
+// ------------------------------------------------------
+// Template: 
+
+#wpsl-wrap{
+    &:after{
+        display: block;
+        clear: both;
+        content: '';
+    }
+    .wpsl-search{
+        
+    }
+    #wpsl-gmap{
+        float: right;
+        width: 60%;
+        margin-top: 12px;
+    }
+    #wpsl-gmap{        
+        height: 540px !important;
+        z-index: 1;
+    }
+    #wpsl-result-list{
+        float: left;
+        width: 40%;
+        /*margin-top: -112px;*/
+        padding-right: 30px;
+        position: absolute;
+        overflow: auto;
+        height: 100%;
+        z-index: 0;
+    }
+}

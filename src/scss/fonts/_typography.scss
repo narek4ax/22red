@@ -1,0 +1,44 @@
+// Typography Content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Webfont Build by: Denis Kabistan
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/*$gotham-book: 'gotham-book';
+$gotham-medium: 'gotham-medium';
+$gotham-mediumitalic: 'gotham-mediumitalic';*/
+
+$gotham-book: 'Montserrat';
+$gotham-medium: 'Montserrat';
+$gotham-mediumitalic: 'Montserrat';
+
+$hold_fast_foundry: 'hold_fast_foundry';
+
+@font-face {
+    font-family: 'gotham-book';
+    src: url('#{$fontPath}/Gotham-Book.woff2') format('woff2'),
+         url('#{$fontPath}/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham-medium';
+    src: url('#{$fontPath}/gotham-medium.woff2') format('woff2'),
+         url('#{$fontPath}/gotham-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham-mediumitalic';
+  src: url('#{$fontPath}/gotham-mediumitalic.woff2') format('woff2'),
+       url('#{$fontPath}/gotham-mediumitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'hold_fast_foundry';
+  src: url('#{$fontPath}/hold_fast_foundry.woff2') format('woff2'),
+       url('#{$fontPath}/hold_fast_foundry.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

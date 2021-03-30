@@ -1,0 +1,591 @@
+// Custom Breakpoints
+@media (min-width: 1200px){
+    .container {
+        max-width: 1570px;
+    }
+    #the_core_goods,
+    #header{
+        .container {
+            max-width: 1710px;
+        }        
+    }
+
+}
+@media (max-width: 1399px){
+    .slick-slider{
+        .slick-prev{
+            left: -40px;
+        }
+        .slick-next{
+            right: -40px;
+        }
+    }
+    .page-template-page-home{
+
+    }
+    #in_the_press{
+        .page_item{
+            padding: 30px 30px 30px;
+            .image_wrapper{
+                margin-bottom: 30px;
+            }
+            .page_item_content{
+                margin-bottom: 30px;
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .page-template-page-cannabis{
+        #cannabis_category_global_info,
+        #cannabis_category_to_show{
+            .row{
+                .col{
+                    .content_wrapper{
+                        padding: 40px 40px
+                    }
+                }
+            }
+        }
+    }
+    .page-template-page-about{
+        #about_bontique{
+            .col{
+                .about_bontique_wrapper{
+                    padding: 40px;
+                }
+            }
+        }
+        #elevating_experience{
+            .col{
+                .elevating_experience_wrapper{
+                    padding: 40px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1199px){
+    .slick-slider{
+        .slick-prev{
+            left: -20px;
+        }
+        .slick-next{
+            right: -20px;
+        }
+    }
+}
+@media (max-width: 1039px){
+}
+@media (max-width: 991px){
+    h1{
+        letter-spacing: 0;
+        font-size: 60px;
+    }
+    h2{
+        font-size: 48px;
+        letter-spacing: 0;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .slick-slider{
+        .slick-prev{
+            left: 40px;
+        }
+        .slick-next{
+            right: 40px;
+        }
+        .slick-next,
+        .slick-prev{
+            top: auto;
+            transform: none;
+            bottom: 10px;
+            z-index: 10;
+        }
+    }
+    #header{
+        position: fixed;
+        background: #fff;
+        box-shadow: -9.506px 14.094px 39px 0 rgba(0,0,0,.4);
+        padding: 10px 0;
+        
+/*        .logo{
+            max-width: 160px;            
+        }*/
+
+        .container{
+            max-width: 100%;
+        }
+
+        .navbar{
+            position: static;
+            padding-top: 5px;
+
+            .navbar-toggler{                
+                padding: 8px 8px;
+            }
+            .navbar-collapse{
+                position: absolute;
+                top: 100%;
+                width: 100%;
+                right: 0;
+                background: $light_red;
+                padding: 10px 15px;
+
+                #menu-header-menu{
+                    margin-left: 0;
+                    &>li{
+                        margin-left: 0;
+
+                        .dropdown-menu{
+                            border: 0;
+                            background: none;
+
+                            a{
+                                background: none;
+                                padding-top: 0;
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+                    a{
+                        font-size: 24px !important;
+                        color: $white !important;
+
+                        &:hover{
+                            color: $black !important;
+                        }
+                    }
+                    li.current-menu-item{
+                        &>a{
+                            color: $black !important;                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .page-template-page-home{
+        #header:not(.stiky){
+            .logo.has_white_logo{
+                .white{
+                    display: none;
+                }
+                .original {
+                     display: inline; 
+                }
+            }
+        }
+        h1{
+            letter-spacing: 0;
+            font-size: 60px;
+        }
+        h4{
+            font-size: 18px;
+
+        }
+        .featured-work{
+            h4{
+                font-size: 18px;
+
+            }
+            article{
+                &.first_slide{
+                    h1{
+
+                    }
+                    .slide_content_image{
+                        max-width: 500px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .slide_content_wrapper{
+                padding-right: 46px;
+            }
+        }
+        .js{
+            .home-secondary {
+                padding-top: 76px;
+            }
+        } 
+
+        #home_intro{
+            padding: 90px 0;
+            h2{
+                font-size: 48px;
+            }
+        }
+        #the_core_goods{
+            padding: 40px 0;
+            .images_wrapper{
+                margin-top: 0;
+            }
+        }
+
+        #home_blog{            
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            h1{
+                margin-bottom: 30px;                
+            }
+            .posts_wrapper{
+                .post_item{
+                    .post_item_inner{
+                        display: block;
+                        .image_wrapper{
+                            width: 100%;
+                            display: block;
+
+                            img{
+                                opacity: 1;
+                            }
+                        }
+                        .post_content{
+                            width: 100%;
+                            padding: 30px 30px 67px 30px;
+                            display: block;
+                            p{
+                                font-size: 16px;
+                            }
+                            .read_more{
+                                margin-top: 20px;                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .featured-work.full-page-slides{
+            .control-nav{
+                right: 22px;
+            }
+        }
+    }
+    #in_the_press{
+        padding: 40px 0 10px;
+    }
+    #stay_updated{
+        padding: 40px 0;
+        .gform_wrapper{
+            .gform_title{
+                font-size: 48px;
+            }
+            .gform_footer,
+            .gform_body,
+            .gform_heading{
+                float: none;
+                width: 100%;
+            }
+        }
+    }
+    #follow_us{
+        padding: 40px 0;
+        h1{
+            a{
+                font-size: 40px;
+            }
+        }
+        .instagram_images_wrapper{
+            a{
+                display: block;
+                width: 50%;
+                flex-basis: initial;
+                flex-grow: initial;
+                margin-bottom: 30px;
+            }
+        }        
+    }
+    footer{
+        background: $black;
+        .footer_top{
+            .footer_right{
+                margin-right: 0;
+            }
+        }
+    }
+    #inside_banner{
+        padding: 170px 0 100px;
+    }
+    .page-template-page-cannabis{
+        #leading_cannabis_revolution{
+            padding: 40px;
+        }
+        #cannabis_category_to_show{
+            .row{
+                .col{
+                    .content_wrapper{
+                        .strains{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-template-page-about{
+        #about_intro{
+            padding: 40px 0;
+            
+            .intro_title {
+                max-width: 360px;
+                margin: 0 auto 20px;
+                
+                h2{
+                    width: 100%;
+                }
+                h4{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        #our_collections{
+            padding: 100px 0;
+        }
+        #lauret_non_section{
+            padding: 200px 0;
+            min-height: 390px;
+        }
+    }
+    body{
+        .firewall_wrapper{
+            padding: 40px;
+        }
+    }
+    
+    #wpsl-wrap{
+        #wpsl-gmap{
+            float: none;
+            width: 100%;
+            margin-top: 12px;
+        }
+        #wpsl-gmap{        
+            height: 350px !important;
+        }
+        #wpsl-result-list{
+            float: none;
+            width: 100%;
+            /*margin-top: -112px;*/
+            padding-right: 0px;
+            position: relative;
+        }
+    }
+    .page-template-page-contact{
+        #contact_content{
+            .col{
+                flex: 0 0 100%;
+                max-width: 100%;
+                .content_wrapper {
+                    padding: 40px 20px;
+                }
+            }
+        }
+    }
+    body:not(.home) main {
+        padding-top: 76px;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .page-template-page-home{
+        h1{
+            font-size: 48px;
+        }
+        .featured-work{
+            article{
+                &.first_slide{
+                    .slide_content_image{
+                        max-width: 390px;
+                    }
+                }
+            }
+        }
+
+        #home_intro{
+            padding: 90px 0;
+            h2{
+                font-size: 36px;
+            }
+        }
+        .featured-work.full-page-slides{
+            .control-nav{
+                right: 32px;
+            }
+        }
+    }
+    footer{
+        padding: 40px 0;
+        .footer_top{
+            .footer_left{
+                max-width: 100%;
+                text-align: center;
+                float: none;
+                .footer_logo{
+                    margin-left: 0;
+                }
+            }
+            .footer_right{
+                float: none;
+            }
+        }
+        .copyright_wrapper{
+            *{
+                color: $white;
+            }
+        }
+    }
+    .page-template-page-cannabis{
+        #cannabis_category_global_info,
+        #cannabis_category_to_show{
+            .row{
+                .col{
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .content_wrapper{
+                        padding: 40px 20px;
+                        .content_inner_wrapper{
+                            max-width: 100%;
+
+                            h4{
+                                max-width: 100%;
+                            }
+                        }
+                        .term_content{
+                            max-width: 100%;
+                        }
+                    }
+                    &.hidden_till_mobile{
+                        display: block;
+                    }
+                    &.visible_till_mobile{
+                        display: none;
+                    }
+                    &.text-left{
+                        .content_wrapper{
+                            .content_inner_wrapper{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2n+2){
+                    .col{
+                        .content_wrapper{
+                            .content_inner_wrapper{
+                                margin: 0;                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pop_up_content_wrapper.fancybox-content{
+        .pop_up_container{
+            padding: 0 40px;
+        }
+        .fancybox-button{
+            width: 50px;
+            height: 50px;
+        }
+        .top_part{
+            .top_part_inner{
+                padding: 40px 0 49px;
+            }
+        }
+        .effects_wrapper{
+            .effects_wrapper_inner{
+                padding: 40px 0;
+                .effect_item{
+                    padding: 15px 30px 10px;
+                }
+            }
+        }
+    }
+    .page-template-page-about{
+        #about_bontique{
+            .col{
+                flex: 0 0 100%;
+                max-width: 100%;
+                
+                .about_bontique_wrapper{
+                    padding: 40px 10px;
+                    
+                    .about_bontique_inner_wrapper{
+                        max-width: 100%;
+                        
+                        h2{
+                            letter-spacing: 0;
+                            br{
+                                display: none;
+                            }
+                        }
+                        h4:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        #elevating_experience{
+            .col{
+                flex: 0 0 100%;
+                max-width: 100%;
+                .elevating_experience_wrapper{
+                    padding: 40px 10px;
+                    .elevating_experience_inner_wrapper{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px){
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+    .page-template-page-home{
+        h1{
+            font-size: 36px;
+        }
+        .featured-work{
+            article{
+                &.first_slide{
+                    .slide_content_image{
+                        /*                        max-width: 280px;
+                                                margin: 0 auto;*/
+                    }
+                }
+            }
+        }
+
+        #home_intro{
+            padding: 70px 0;
+            h2{
+                font-size: 28px;
+            }
+        }
+    }
+    #header .logo {
+        max-width: 160px;
+    }
+}

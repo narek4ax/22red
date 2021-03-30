@@ -1,0 +1,28 @@
+/*!
+  Theme Name:   22Red Theme
+  Theme URI:    https://22red.com
+  Description:  22Red Theme
+  Author:       Diran Yanikian
+  Author URI:   https://www.dirango.com
+  Version:      1.1
+  License:      GNU General Public License v2 or later
+  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+  Tags:         webpack, es6, yarn, scss, bootstrap4, fontawesome
+  Text Domain:  22red-theme-kit
+*/
+
+$fontPath: "/wp-content/themes/22red/fonts";
+
+@import "scss/bootstrap";
+@import "fonts/typography";
+@import "mixins/mixins";
+@import "core/colors";
+@import "core/core";
+
+@import "pages/contact";
+@import "pages/find_store";
+@import "pages/home";
+@import "pages/cannabis";
+@import "pages/about";
+
+@import "mixins/responsive-breakpoints";

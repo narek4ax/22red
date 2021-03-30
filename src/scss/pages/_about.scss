@@ -1,0 +1,133 @@
+// ------------------------------------------------------
+// Page specific styles that are not meant to be global
+// should be placed here.
+// ------------------------------------------------------
+// Template: page-about.php
+.page-template-page-about{
+    #about_intro{
+        padding: 108px 0 103px;
+        background: $black;
+        
+        h2{
+            text-align: center;
+            color: $white;
+        }
+        h4{
+            color: $white;     
+            line-height: 1.5;
+            margin-bottom: 32px;
+            letter-spacing: -0.6px;       
+        }
+        .intro_title{
+            margin-bottom: 95px;
+            text-align: center;
+            position: relative;
+            
+            &.image_exist{
+                h2{
+                    position: absolute;
+                    margin-bottom: 0;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    margin-top: 17px;
+                }
+            }
+        }
+        .about_intro_wrapper{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    }
+    #about_bontique{
+        .col{
+            background-color: $white;
+            img{
+                opacity: 0;
+            }
+            &:last-child{
+                background-color: $black;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            
+            h2{
+                line-height: 107%;
+                letter-spacing: -1.5px;
+                margin-bottom: 34px;
+                
+            }
+            h4{                
+                letter-spacing: -0.6px;
+            }
+            .about_bontique_wrapper{
+                padding: 150px 170px 93px;
+                
+                .about_bontique_inner_wrapper{
+                    max-width: 452px;
+                    margin: 0 0 0 auto;
+                }
+            }
+        }
+    }
+    #our_collections{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 265px 0 196px;
+        
+        h1{
+            color: $white;
+            margin-bottom: 10px;
+        }
+        h4{
+            color: $white;
+            line-height: 1.5;
+        }
+        .our_collections_wrapper{
+            max-width: 690px;
+            margin: 0 auto;
+        }
+    }
+    #lauret_non_section{
+        min-height: 840px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding: 300px 0;
+        
+        h1{
+            text-align: center;
+            color: #fff;
+        }
+    }
+    #elevating_experience{
+        .col{
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: cover;
+            img{
+                opacity: 0;
+            }
+            &.content{
+                background: $black;
+            }
+            h2{
+                color: $white;
+                line-height: 110%;
+                margin-bottom: 23px;
+            }
+            h4{
+                color: $white;
+                line-height: 1.5;
+            }
+            .elevating_experience_wrapper{
+                padding: 206px 90px 231px;
+                .elevating_experience_inner_wrapper{
+                    max-width: 490px;
+                }
+            }
+        }
+    }
+}
